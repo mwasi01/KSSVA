@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Sharing Platform</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('background-image.jpg');">
+  <div class="container">
+    <h1>Video Sharing Platform</h1>
+    <form id="video-upload-form" enctype="multipart/form-data">
+      <input type="file" id="video-upload" accept="video/*" required>
+      <input type="text" id="video-description" placeholder="Enter video description">
+      <button type="submit">Upload Video</button>
+    </form>
+    <div id="video-gallery"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

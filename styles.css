@@ -1,0 +1,38 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #video-gallery {
+    margin-top: 20px;
+  }
+  
+  .video-item {
+    margin-bottom: 10px;
+  }
+  
+  .video-player {
+    width: 100%;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
